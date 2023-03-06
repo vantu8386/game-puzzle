@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="image" onclick="image()" src="./image/img1.jpg" alt="">
+    <script>
+          let img = 0;
+        function image() {
+            img++;
+            if (img==1){
+                document.getElementById('image').src="./image/img1.jpg";
+            }else if(img==2){
+                document.getElementById('image').src="./image/img3.jpg";
+            }else if(img==3){
+                document.getElementById('image').src="./image/img4.jpg";
+            }else if(img==4){
+                document.getElementById('image').src="./image/img5.jpg";
+            }else if(img==5){
+                document.getElementById('image').src="./image/img6.jpg";
+            }else if(img==6){
+                document.getElementById('image').src="./image/img7.jpg";
+            }else if(img==7){
+                document.getElementById('image').src="./image/img8.jpg";
+            }else if(img==8){
+                document.getElementById('image').src="./image/img9.jpg";
+            }else if(img==9){
+                document.getElementById('image').src="./image/img2.jpg";
+            }else if(img==10){
+                document.getElementById('image').src="./image/img1.jpg";
+                img =0;
+            }
+        }
+    </script>
+
+</body>
+</html>
